@@ -22,7 +22,7 @@ namespace ResortDir
         /// <summary>
         /// Запуск перемещения 
         /// </summary>
-        private void button1_Click(object sender, EventArgs e)
+        private void btnStart_Click(object sender, EventArgs e)
         {
             var processedDirCount = 0;                                                  /// Количество обработанных папок
             var listRootDir = Directory.GetDirectories(appDir);                         /// Список папок в рабочей папке

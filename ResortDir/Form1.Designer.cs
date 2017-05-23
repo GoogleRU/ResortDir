@@ -142,7 +142,7 @@
             this.btnStart.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.toolTip1.SetToolTip(this.btnStart, "Запуск");
             this.btnStart.UseVisualStyleBackColor = true;
-            this.btnStart.Click += new System.EventHandler(this.button1_Click);
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // progressBar1
             // 
